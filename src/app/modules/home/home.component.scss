@@ -4,6 +4,10 @@
     background-position: center;
     background-repeat: no-repeat;
     height: 100vmin; // pega todo o viewport da tela
-    }
+}
 
-    
+@media screen and (min-width: 1400px) { // se a tela for maior que 1400px
+    .grid {
+        background-position: top; // deixa a imagem mais para cima
+    }
+}
